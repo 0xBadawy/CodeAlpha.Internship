@@ -1,0 +1,74 @@
+body {
+    background-color: #0a6cf1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.content{
+    margin: 15% auto 0 auto;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #00000061;
+}
+.dataDisply{
+    margin: 1% auto 0 auto;
+    padding: 10px;
+    width: 495px;
+    border-radius: 10px;
+}
+.dataDisply {
+   display: flex;
+    justify-content: space-between;
+}
+.dataDisply div{
+   background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #00000061;
+    width: 20%;
+}
+
+.dataDisply div h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    margin: 8px 0 8px 0;
+}
+
+.dataDisply div #AgeNum{
+    font-size: 40px;
+    text-align: center;
+}
+
+.dataDisply div #DayNum {
+    font-size: 40px;
+    text-align: center;
+}
+
+.dataDisply div #MonthNum {
+    font-size: 40px;
+    text-align: center;
+}
+
+.content div .date{
+    width: 72%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #00000061;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.content div .btn{
+    width: 22%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: #0a6cf1;
+    color: #fff;
+    cursor: pointer;
+}
